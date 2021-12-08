@@ -12,11 +12,11 @@
 }
 
  .navbar .navbar-container {
-    width: 75%;
+    /* width: 75%; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
+    margin: 0 5em;
 }
 
 .navbar .navbar-container h1 {
@@ -31,7 +31,7 @@
 }
 
 .navbar .navbar-container ul li {
-    padding: 0 10px;
+    padding-left: 20px;
 
 }
 
@@ -48,11 +48,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 50px;
+    padding: 5em 5em;
 }
 
 .hero .hero-text {
     flex: 1;
+    padding-right: 3em;
 }
 
 .hero .hero-text h1 {
@@ -61,11 +62,27 @@
     color: #F9FAF8;
 }
 
-.hero .hero-text p {
+.hero .hero-text {
     font-size: 18px;
     color: #E5E7EB;
 }
 
+.hero .hero-text button {
+    background-color: #3882F6;
+    font-size: 16px;
+    font-weight: bold;
+    color: #F9FAF8;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    padding: 7.5px 30px;
+}
+
 .hero .hero-image {
     flex: 1;
+}
+
+.hero .hero-image img {
+    height: 100%;
+    width: 100%;
 }
