@@ -96,8 +96,8 @@
 /* Card container styling */
 
 .card-container {
-    width: 75%;
-    padding: 5em 0 10em;
+    width: 70%;
+    padding: 5em 0 7em;
     margin: 0 auto;
     text-align: center;
 }
@@ -125,4 +125,27 @@
     width: 100%;
     border: 5px solid #3882F6;
     border-radius: 10px;
+}
+
+/* Quote styling */
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote .quote-container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 5em 0;
+}
+
+.quote .quote-container .quote-large {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote .quote-container .quote-small {
+    text-align: end;
+    font-weight: bold;
+    padding-right: 25px;
 }
